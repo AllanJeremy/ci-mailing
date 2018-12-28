@@ -77,7 +77,7 @@ $db['default'] = array(
 	'dsn'	=> 'mysql:unix_socket=/cloudsql/dbname:us-central1-a:root;dbname=mailing',
 	'hostname' =>NULL,  //your_project_name:your_region:your_instance
 	'username' => 'root',
-	'password' => 'gG?T*pstPF4ib@qh',
+	'password' => '',
 	'database' => 'mailing',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
