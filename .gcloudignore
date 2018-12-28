@@ -1,0 +1,62 @@
+# This file specifies files that are *not* uploaded to Google Cloud Platform
+# using gcloud. It follows the same syntax as .gitignore, with the addition of
+# "#!include" directives (which insert the entries of the given .gitignore-style
+# file at that point).
+#
+# For more information, run:
+#   $ gcloud topic gcloudignore
+#
+.gcloudignore
+# If you would like to upload your .git directory, .gitignore file or files
+# from your .gitignore file, remove the corresponding line
+# below:
+.git
+.gitignore
+
+# Don't upload dev items
+sql/
+public/_dev/
+
+# From gitignore
+.DS_Store
+
+ci/application/cache/*
+!ci/application/cache/index.html
+
+!ci/application/logs/index.html
+
+!ci/application/*/.htaccess
+
+ci/application/views/*/*.html
+ci/application/views/**/*.css
+composer.lock
+ci/application/vendor/*
+ci/application/libraries/vendor/*
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+# Codeigniter stuff
+*.bscomp
+*.html
+/ci/application/config/development/*
+/public/_dev/sass/.sass-cache/*
+/public/_dev/sass/yo-styles/.sass-cache/*
+/public/assets/site/css/.sass-cache/*
+/public/_dev/node_modules/*
+/tests/tests/
+/tests/results/
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+#product images
+/public/assets/site/img/**/products/
+/public/uploads
+/public/_dev/js/config/development
