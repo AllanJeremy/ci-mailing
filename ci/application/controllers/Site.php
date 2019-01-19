@@ -47,13 +47,6 @@ class Site extends CI_Controller {
 		$this->load->view('pages/landing',$this->data);
 	}
 
-	public function view()
-	{
-		$this->load->model('mailing_model');
-		$this->data['users'] = $this->mailing_model->get();
-		var_dump($this->data['users']);
-		$this->load->view('pages/view',$this->data);
-	}
 }
 
 /* End of file Site.php */

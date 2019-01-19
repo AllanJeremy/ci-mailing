@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> 'mysql:unix_socket=/cloudsql/mailing:us-central1-a:root;dbname=mailing',
-	'hostname' =>NULL,  //your_project_name:your_region:your_instance
+	'hostname' =>'yoamar-225204.appspot.com/',  //your_project_name:your_region:your_instance
 	'username' => 'root',
 	'password' => 'gG?T*pstPF4ib@qh',
 	'database' => 'mailing',

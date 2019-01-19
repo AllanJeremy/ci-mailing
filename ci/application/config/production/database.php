@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:unix_socket=/cloudsql/dbname:us-central1-a:root;dbname=mailing',
-	'hostname' =>NULL,  //your_project_name:your_region:your_instance
-	'username' => 'root',
-	'password' => '',
+	'dsn'	=> 'mysql:unix_socket=/cloudsql/yoamar-225204:us-central1:yoamar-web-db;dbname=mailing',
+	'hostname' => '35.238.41.222', 
+	'username' => 'yoamar-admin',
+	'password' => '5PJ4Y@rHv|;R|(#e',
 	'database' => 'mailing',
-	'dbdriver' => 'pdo',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
@@ -92,5 +92,5 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
+	'save_queries' => TRUE,
 );
