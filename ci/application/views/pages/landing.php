@@ -10,8 +10,8 @@
 </head>
 
 <body class="text-white">
-    <div class="d-flex d-xl-flex justify-content-center" style="height: 100vh;width: 100%;background-image: url(&quot;https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260&quot;);">
-        <div style="position: absolute;width: 100%;height: 100%;background-color: rgba(0,0,0,0.25);"></div>
+    <div class="d-flex d-xl-flex justify-content-center" style="min-height: 100vh;width: 100%;background-image: url(&quot;https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260&quot;);">
+        <div style="position: absolute;width: 100%;height:inherit;background-color: rgba(255,0,0,0.25);"></div>
         <div class="container d-flex flex-column justify-content-center align-items-center" style="z-index: 999;">
 
             <?php 
