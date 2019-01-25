@@ -9,6 +9,7 @@ class Site extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+		$this->output->set_header('Access-Control-Allow-Origin: *');
 		$this->data = [];
 	}
 	

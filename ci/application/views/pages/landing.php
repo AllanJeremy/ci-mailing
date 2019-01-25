@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>YoAmar | Register now</title>
     <link rel="stylesheet" href="<?= asset_url('css/bootstrap.min.css');?>">
-    <link rel="stylesheet" href="<?= asset_url('fonts/fontawesome-all.min.css'); ?>">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 </head>
 
 <body class="text-white">
